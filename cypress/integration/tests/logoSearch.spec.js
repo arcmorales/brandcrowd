@@ -29,6 +29,7 @@ describe('BrandCrowd Logo search form', () => {
         cy.get('[data-test-logo-design-images]').should('have.length.at.least', 1)
             .each($searchResult => {
                 expect($searchResult).to.have.attr('src').to.contain(searchTerms.business)
+                expect($searchResult).to.have.attr('alt').to.contain(searchTerms.keyword)
             })
     })
 })
