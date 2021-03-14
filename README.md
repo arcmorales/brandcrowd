@@ -24,3 +24,6 @@
 
 ### Using cypress config
 - Configuring baseUrl in cypress config
+
+### Using custom commands
+- Make use of custom commands to write reusable functions rather than coupling in page objects
