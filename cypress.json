@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://www.brandcrowd.com/",
+    "env": {
+        "logoMaker_url": "maker/logos"
+    }
+}
